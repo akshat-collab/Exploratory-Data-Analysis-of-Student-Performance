@@ -1,0 +1,19 @@
+{
+  "dataset": "UCI Student Performance - Mathematics",
+  "rows": 395,
+  "features_used": 30,
+  "target": "G3",
+  "target_scale": "0-20",
+  "model": "RandomForestRegressor (400 trees, min_samples_leaf=2)",
+  "split": "80/20 random_state=42",
+  "cross_validation": "5-fold",
+  "test_mae": 3.032140933521472,
+  "test_rmse": 3.803076541881686,
+  "test_r2": 0.2946423875873897,
+  "cv_mae": 3.1909916417794584,
+  "excluded_features": [
+    "G1",
+    "G2"
+  ],
+  "interpretation": "Predictive association, not causal effect; small single-school-context dataset."
+}
